@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testlayer.CreateaccountTest">
+        <methods>
+          <include name="close"/>
+          <include name="refresh"/>
+          <include name="screenshots"/>
+          <include name="TC01_createaccount"/>
+          <include name="initial_setup"/>
+        </methods>
+      </class> <!-- testlayer.CreateaccountTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

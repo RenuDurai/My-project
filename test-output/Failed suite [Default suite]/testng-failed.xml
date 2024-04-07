@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="testlayer.Add_Address_Module_Test">
+        <methods>
+          <include name="TC118_Add_address_button"/>
+          <include name="TC59_Add_address_Invalid_ProvinceorTerritory"/>
+          <include name="TC57_Add_address_Invalid_Address"/>
+          <include name="screenshots"/>
+          <include name="TC56_Add_address_Invalid_Address"/>
+          <include name="TC58_Add_address_Invalid_City"/>
+          <include name="initial_setup"/>
+          <include name="TC55_Add_address_Invalid_Phone_number"/>
+          <include name="TC61_Add_address_default_address"/>
+          <include name="close"/>
+          <include name="TC60_Add_address_Invalid_Postal_code"/>
+          <include name="refresh"/>
+        </methods>
+      </class> <!-- testlayer.Add_Address_Module_Test -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
